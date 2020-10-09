@@ -1,7 +1,7 @@
 $colors: (
   dark-primary-color: #0288d1,
   default-primary-color: #03a9f4,
-  light-primary-color: background: #b3e5fc,
+  light-primary-color: #b3e5fc,
   text-primary-color: #ffffff,
   accent-color: #ff9800,
   primary-text-color: #212121,
@@ -11,4 +11,19 @@ $colors: (
 
 @function color($color-name) {
   @return map-get($colors, $color-name);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  /* font-family: "Titillium Web", sans-serif;
+  font-family: "Mukta", sans-serif; */
+  background-color: color(light-primary-color);
+}
+.header-text-box {
+  text-align: center;
+  font-size: 4rem;
 }

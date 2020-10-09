@@ -1,0 +1,17 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+  /* font-family: "Titillium Web", sans-serif;
+  font-family: "Mukta", sans-serif; */
+  background-color: #b3e5fc;
+}
+
+.header-text-box {
+  text-align: center;
+  font-size: 4rem;
+}
+/*# sourceMappingURL=style.css.map */
