@@ -26,10 +26,11 @@ body {
 .box {
   height: 30vh;
   width: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
   background-color: color(accent-color);
-}
-.box-element {
-  text-align: center;
 }
 .box-title {
   font: 400 3rem $mainFont;
@@ -40,6 +41,4 @@ body {
 }
 .image {
   width: 10rem;
-  margin-left: auto;
-  margin-right: auto;
 }
