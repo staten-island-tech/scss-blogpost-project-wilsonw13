@@ -5,8 +5,6 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-size: 62.5%;
-  /* font-family: "Titillium Web", sans-serif;
-  font-family: "Mukta", sans-serif; */
   background-color: color(light-primary-color);
 }
 .header-text-box {
@@ -14,18 +12,17 @@ body {
   font: 400 5rem $mainFont;
 }
 .container {
-  height: 100vh;
+  height: 125rem;
   width: 100vw;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background-color: pink;
 }
 .box {
-  height: 30vh;
-  width: 75vh;
+  height: 35rem;
+  width: 75vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,11 +31,19 @@ body {
 }
 .box-title {
   font: 400 3rem $mainFont;
+  margin: 0rem;
 }
 .box-text {
   font: 400 2rem $secondaryFont;
+  margin: 0rem;
   padding: 0rem 2rem;
 }
-.image {
+.image1 {
   width: 10rem;
+}
+.image2 {
+  width: 9rem;
+}
+.image3 {
+  width: 20rem;
 }
