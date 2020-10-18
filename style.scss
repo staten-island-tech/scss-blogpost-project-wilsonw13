@@ -15,29 +15,29 @@ body {
 }
 .container {
   height: 100vh;
-  width: 80vw;
+  width: 100vw;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   background-color: pink;
 }
 .box {
-  height: 20vh;
+  height: 30vh;
   width: 75vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  background-color: yellowgreen;
-  //background-color: color(accent-color);
+  background-color: color(accent-color);
 }
 .box-title {
   font: 400 3rem $mainFont;
 }
 .box-text {
   font: 400 2rem $secondaryFont;
+  padding: 0rem 2rem;
 }
 .image {
   width: 10rem;
